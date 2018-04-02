@@ -1,4 +1,4 @@
-
+require 'pry'
 def hopper
 	programmer_hash =
  		{
@@ -39,6 +39,7 @@ def alan_kay_is_known_for
      }
 	 programmer_hash[:alan_key][:known_for]
 end
+
 
 def dennis_ritchies_language
 	programmer_hash =
