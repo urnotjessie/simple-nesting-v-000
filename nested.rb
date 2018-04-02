@@ -21,7 +21,7 @@ end
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
-
+	binding.pry	
 	programmer_hash =
  		{
         :grace_hopper => {
@@ -37,7 +37,7 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
-     binding.pry	 
+      
 	 programmer_hash[:alan_key][:known_for]
 end
 
