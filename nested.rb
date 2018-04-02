@@ -37,9 +37,10 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
+	 binding.pry	 
 	 programmer_hash[:alan_key][:known_for]
 end
-binding.pry
+
 
 def dennis_ritchies_language
 	programmer_hash =
